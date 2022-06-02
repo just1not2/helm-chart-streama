@@ -93,6 +93,9 @@
                 "pullPolicy": {
                     "type": "string"
                 },
+                "registry": {
+                    "type": "string"
+                },
                 "repository": {
                     "type": "string"
                 },
@@ -182,6 +185,9 @@
                     "type": "object",
                     "properties": {
                         "pullPolicy": {
+                            "type": "string"
+                        },
+                        "registry": {
                             "type": "string"
                         },
                         "repository": {

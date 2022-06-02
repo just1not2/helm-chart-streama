@@ -11,6 +11,9 @@ nameOverride: ""
 
 ## Streama container image
 image:
+  ## Streama image registry
+  registry: docker.io
+
   ## Streama image repository
   repository: just1not2/streama
 
@@ -220,6 +223,9 @@ mysql:
 
   ## MySQL container image
   image:
+    ## MySQL image registry
+    registry: docker.io
+
     ## MySQL image repository
     repository: bitnami/mysql
 

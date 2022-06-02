@@ -1,6 +1,6 @@
 apiVersion: v2
 name: streama
-version: 1.0.0
+version: 1.0.1
 kubeVersion: ">=1.22.0"
 description: Self-hosted streaming media server
 type: application
